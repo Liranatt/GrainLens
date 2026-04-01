@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>GrainLens - Steel Microstructures</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <h1>GrainLens</h1>
+      <p class="subtitle">SEM grain analysis for steel microstructures</p>
+    </div>
+    <nav class="tabs-nav" aria-label="Main tabs">
+      <button data-tab="analyze" class="tab active" type="button">Analyze</button>
+      <button data-tab="cases" class="tab" type="button">Case Studies</button>
+      <button data-tab="compare" class="tab" type="button">Compare</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="tab-analyze" class="tab-pane active">
+      <div id="analyze-controls" class="panel"></div>
+      <div id="analyze-image" class="panel"></div>
+      <div id="analyze-stats" class="panel"></div>
+      <div id="analyze-chart" class="panel chart"></div>
+    </section>
+
+    <section id="tab-cases" class="tab-pane">
+      <div id="cases-container"></div>
+    </section>
+
+    <section id="tab-compare" class="tab-pane">
+      <div id="compare-controls" class="panel"></div>
+      <div id="compare-chart" class="panel chart"></div>
+    </section>
+  </main>
+
+  <script src="js/charts.js"></script>
+  <script src="js/viewer.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

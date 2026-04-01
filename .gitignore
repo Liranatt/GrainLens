@@ -1,0 +1,12 @@
+# Ignore large raw image files while keeping metadata templates tracked
+raw_data/**/*.png
+raw_data/**/*.jpg
+raw_data/**/*.jpeg
+raw_data/**/*.tif
+raw_data/**/*.tiff
+raw_data/**/*.bmp
+
+__pycache__/
+*.pyc
+.DS_Store
+venv/

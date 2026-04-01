@@ -1,0 +1,62 @@
+[
+  {
+    "case_id": "pearlite_slow",
+    "title": "TO_FILL",
+    "sample_images": [
+      "TO_FILL"
+    ],
+    "processing_text": "TO_FILL",
+    "thermo_text": "TO_FILL",
+    "key_features": [
+      "TO_FILL"
+    ],
+    "expected_properties": "TO_FILL",
+    "application_notes": "TO_FILL",
+    "grain_thresholds": {
+      "d10_um2": "TO_FILL",
+      "d50_um2": "TO_FILL",
+      "d90_um2": "TO_FILL"
+    },
+    "report_summary": "TO_FILL"
+  },
+  {
+    "case_id": "martensite_quench",
+    "title": "TO_FILL",
+    "sample_images": [
+      "TO_FILL"
+    ],
+    "processing_text": "TO_FILL",
+    "thermo_text": "TO_FILL",
+    "key_features": [
+      "TO_FILL"
+    ],
+    "expected_properties": "TO_FILL",
+    "application_notes": "TO_FILL",
+    "grain_thresholds": {
+      "d10_um2": "TO_FILL",
+      "d50_um2": "TO_FILL",
+      "d90_um2": "TO_FILL"
+    },
+    "report_summary": "TO_FILL"
+  },
+  {
+    "case_id": "spheroidite_anneal",
+    "title": "TO_FILL",
+    "sample_images": [
+      "TO_FILL"
+    ],
+    "processing_text": "TO_FILL",
+    "thermo_text": "TO_FILL",
+    "key_features": [
+      "TO_FILL"
+    ],
+    "expected_properties": "TO_FILL",
+    "application_notes": "TO_FILL",
+    "grain_thresholds": {
+      "d10_um2": "TO_FILL",
+      "d50_um2": "TO_FILL",
+      "d90_um2": "TO_FILL"
+    },
+    "report_summary": "TO_FILL"
+  }
+]

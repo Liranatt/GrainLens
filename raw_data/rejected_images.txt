@@ -1,0 +1,1 @@
+# One rejected image per line. Optional format: filename|reason
