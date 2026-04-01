@@ -35,7 +35,17 @@ class GrainResult:
 
 
 def load_image(path: str) -> np.ndarray | None:
-    img = cv2.imread(path, cv2.IMREAD_GRAYSCALE)
+    # Use fromfile+imdecode for robust Windows Unicode path support.
+    img = None
+    try:
+        buf = np.fromfile(path, dtype=np.uint8)
+        if buf.size > 0:
+            img = cv2.imdecode(buf, cv2.IMREAD_GRAYSCALE)
+    except Exception:
+        img = None
+
+    if img is None:
+        img = cv2.imread(path, cv2.IMREAD_GRAYSCALE)
     if img is None:
         return None
     return img.astype(np.float32) / 255.0

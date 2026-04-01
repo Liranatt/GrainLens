@@ -1,0 +1,32 @@
+{
+  "filename": "Croppedmicrograph1201.png",
+  "grain_count": 18,
+  "mean_area_um2": 350.7,
+  "std_area_um2": 526.22,
+  "d10_um2": 2.58,
+  "d50_um2": 197.01,
+  "d90_um2": 878.06,
+  "aspect_ratio_mean": 29.272,
+  "areas_um2": [
+    1551.38,
+    2.93,
+    1.68,
+    1.75,
+    193.14,
+    49.28,
+    136.78,
+    260.64,
+    589.49,
+    281.09,
+    200.88,
+    3.67,
+    68.97,
+    262.82,
+    139.64,
+    273.14,
+    312.17,
+    1983.1
+  ],
+  "overlay_path": "data/images/Croppedmicrograph1201_overlay.png",
+  "detection_quality": "unknown"
+}

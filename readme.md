@@ -36,14 +36,6 @@ pip install -r pipeline/requirements.txt
 
 2. Place SEM images in `raw_data/uhcs/micrographs/`.
 
-If you have direct image links, you can auto-download them:
-
-```bash
-python -m pipeline.download_images
-```
-
-Edit `raw_data/image_sources.txt` first and paste one URL per line.
-
 3. Run processing from repository root:
 
 ```bash
